@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/chatbg"
+    tools:context=".EyeshadowActivity">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/eyeshadowex"
+            android:layout_width="130dp"
+            android:layout_height="130dp"
+            android:src="@drawable/nyx" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:paddingLeft="10dp">
+
+            <TextView
+                android:id="@+id/eyeshadowex_item_name"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:elegantTextHeight="true"
+                android:ellipsize="end"
+                android:layout_marginTop="50dp"
+                android:maxLines="1"
+                android:text="nyx眼影盘"
+                android:textSize="20dp"
+                android:textColor="#201e1f"/>
+
+            <TextView
+                android:id="@+id/eyeshadowex_item_author"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:text="41718011"
+                android:textColor="#201e1f"/>
+
+            <TextView
+                android:id="@+id/eyeshadowex_item_college"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:text="人文学院"
+                android:textColor="#201e1f"/>
+
+            <TextView
+                android:id="@+id/eyeshadowex_item_discription"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="2018年双十一买的，七成新，显色度好，不飞粉，B站超多教程。"
+                android:ellipsize="end"
+                android:maxLines="4"
+                android:textColor="#201e1f"/>
+
+            <TextView
+                android:id="@+id/eyeshadowex_item_price"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:text="70出"
+                android:textColor="#201e1f"/>
+        </LinearLayout>
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/eyeshadowex2"
+            android:layout_width="130dp"
+            android:layout_height="130dp"
+            android:src="@drawable/dls" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:paddingLeft="10dp">
+
+            <TextView
+                android:id="@+id/eyeshadowex2_item_name"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:elegantTextHeight="true"
+                android:ellipsize="end"
+                android:layout_marginTop="50dp"
+                android:maxLines="1"
+                android:text="大理石日落盘"
+                android:textSize="20dp"
+                android:textColor="#201e1f"/>
+
+            <TextView
+                android:id="@+id/eyeshadowex2_item_author"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:text="41712033"
+                android:textColor="#201e1f"/>
+
+            <TextView
+                android:id="@+id/eyeshadowex2_item_college"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:text="金融学院"
+                android:textColor="#201e1f"/>
+
+            <TextView
+                android:id="@+id/eyeshadowex2_item_discription"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="今年年初刚入手，但是本人眼影盘太多，随缘出."
+                android:ellipsize="end"
+                android:maxLines="4"
+                android:textColor="#201e1f"/>
+
+            <TextView
+                android:id="@+id/eyeshadowex2_item_price"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:text="50出"
+                android:textColor="#201e1f"/>
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/eyeshadowex3"
+            android:layout_width="130dp"
+            android:layout_height="130dp"
+            android:src="@drawable/colpop" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:paddingLeft="10dp">
+
+            <TextView
+                android:id="@+id/eyeshadowex3_item_name"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:elegantTextHeight="true"
+                android:ellipsize="end"
+                android:layout_marginTop="50dp"
+                android:maxLines="2"
+                android:text="colorpop眼影盘"
+                android:textSize="20dp"
+                android:textColor="#201e1f"/>
+
+            <TextView
+                android:id="@+id/eyeshadowex3_item_author"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:text="41718141"
+                android:textColor="#201e1f"/>
+
+            <TextView
+                android:id="@+id/eyeshadowex3_item_college"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:text="人文学院"
+                android:textColor="#201e1f"/>
+
+            <TextView
+                android:id="@+id/eyeshadowex3_item_discription"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="2019爆款眼影，性价比超高，出个回血"
+                android:ellipsize="end"
+                android:maxLines="4"
+                android:textColor="#201e1f"/>
+
+            <TextView
+                android:id="@+id/eyeshadowex3_item_price"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:text="70出"
+                android:textColor="#201e1f"/>
+        </LinearLayout>
+    </LinearLayout>
+
+
+</LinearLayout>

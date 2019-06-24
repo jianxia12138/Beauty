@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/chatbg"
+    tools:context=".MaskActivity">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/maskex"
+            android:layout_width="130dp"
+            android:layout_height="130dp"
+            android:src="@drawable/fej" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:paddingLeft="10dp">
+
+            <TextView
+                android:id="@+id/maskex_item_name"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:elegantTextHeight="true"
+                android:ellipsize="end"
+                android:layout_marginTop="50dp"
+                android:maxLines="1"
+                android:text="敷尔佳面膜三张"
+                android:textSize="20dp"
+                android:textColor="#201e1f"/>
+
+            <TextView
+                android:id="@+id/maskex_item_author"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:text="41911125"
+                android:textColor="#201e1f"/>
+
+            <TextView
+                android:id="@+id/maskex_item_college"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:text="通识学院"
+                android:textColor="#201e1f"/>
+
+            <TextView
+                android:id="@+id/maskex_item_discription"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="著名医美面膜，适合敏感肌，祛痘效果很好，皮肤状态能比较好的调整，买多了便宜出。"
+                android:ellipsize="end"
+                android:maxLines="4"
+                android:textColor="#201e1f"/>
+
+            <TextView
+                android:id="@+id/maskex_item_price"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:text="45出"
+                android:textColor="#201e1f"/>
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

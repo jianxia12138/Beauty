@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/homebg"
+    tools:context=".HomeFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <TextView
+        android:id="@+id/homeTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="24dp"
+        android:gravity="center"
+        android:text="@string/hello_blank_fragment"
+        android:textSize="25sp" />
+
+
+    <EditText
+        android:id="@+id/inpText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName" />
+
+    <Button
+        android:id="@+id/btn1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/btn_label" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_marginTop="40dp"
+        android:orientation="horizontal">
+
+
+        <LinearLayout
+            android:layout_width="80dp"
+            android:layout_height="70dp"
+            android:orientation="vertical">
+            <ImageView
+                android:id="@+id/cream"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_weight="1"
+                android:layout_gravity="center"
+                android:src="@drawable/cream" />
+            <TextView
+                android:id="@+id/cream1"
+                android:layout_width="50dp"
+                android:layout_height="10dp"
+                android:layout_weight="1"
+                android:layout_gravity="center"
+                android:text="睫毛膏"  />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="80dp"
+            android:layout_height="70dp"
+            android:orientation="vertical">
+            <ImageView
+                android:id="@+id/eyeshadow"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_weight="1"
+                android:layout_gravity="center"
+                android:src="@drawable/eyeshadow" />
+            <TextView
+                android:id="@+id/eyeshadow1"
+                android:layout_width="50dp"
+                android:layout_height="10dp"
+                android:layout_weight="1"
+                android:layout_gravity="center"
+                android:text="眼影"  />
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="80dp"
+            android:layout_height="70dp"
+            android:orientation="vertical">
+            <ImageView
+                android:id="@+id/lip"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_weight="1"
+                android:layout_gravity="center"
+                android:src="@drawable/lip" />
+            <TextView
+                android:id="@+id/lip1"
+                android:layout_width="50dp"
+                android:layout_height="10dp"
+                android:layout_weight="1"
+                android:layout_gravity="center"
+                android:text="口红"  />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="80dp"
+            android:layout_height="70dp"
+            android:orientation="vertical">
+            <ImageView
+                android:id="@+id/makeup"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_weight="1"
+                android:layout_gravity="center"
+                android:src="@drawable/makeup" />
+            <TextView
+                android:id="@+id/makeup1"
+                android:layout_width="50dp"
+                android:layout_height="10dp"
+                android:layout_weight="1"
+                android:layout_gravity="center"
+                android:text="粉底液"  />
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:orientation="horizontal">
+
+
+
+        <LinearLayout
+            android:layout_width="80dp"
+            android:layout_height="70dp"
+            android:orientation="vertical">
+            <ImageView
+                android:id="@+id/mask"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_weight="1"
+                android:layout_gravity="center"
+                android:src="@drawable/mask" />
+            <TextView
+                android:id="@+id/mask1"
+                android:layout_width="50dp"
+                android:layout_height="10dp"
+                android:layout_weight="1"
+                android:layout_gravity="center"
+                android:text="面膜"  />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="80dp"
+            android:layout_height="70dp"
+            android:orientation="vertical">
+            <ImageView
+                android:id="@+id/perfume"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_weight="1"
+                android:layout_gravity="center"
+                android:src="@drawable/perfume" />
+            <TextView
+                android:id="@+id/perfume1"
+                android:layout_width="50dp"
+                android:layout_height="10dp"
+                android:layout_weight="1"
+                android:layout_gravity="center"
+                android:text="香水"  />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="80dp"
+            android:layout_height="70dp"
+            android:orientation="vertical">
+            <ImageView
+                android:id="@+id/polish"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_weight="1"
+                android:layout_gravity="center"
+                android:src="@drawable/polish" />
+            <TextView
+                android:id="@+id/polish1"
+                android:layout_width="50dp"
+                android:layout_height="10dp"
+                android:layout_weight="1"
+                android:layout_gravity="center"
+                android:text="指甲油"  />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="80dp"
+            android:layout_height="70dp"
+            android:orientation="vertical">
+            <ImageView
+                android:id="@+id/rouge"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_weight="1"
+                android:layout_gravity="center"
+                android:src="@drawable/rouge" />
+            <TextView
+                android:id="@+id/rouge1"
+                android:layout_width="50dp"
+                android:layout_height="10dp"
+                android:layout_weight="1"
+                android:layout_gravity="center"
+                android:text="腮红"  />
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/advertisement"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:src="@drawable/timg" />
+
+
+
+
+</LinearLayout>

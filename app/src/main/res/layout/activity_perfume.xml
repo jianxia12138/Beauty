@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/chatbg"
+    tools:context=".PerfumeActivity">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/perfumeex"
+            android:layout_width="130dp"
+            android:layout_height="130dp"
+            android:src="@drawable/ck" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:paddingLeft="10dp">
+
+            <TextView
+                android:id="@+id/perfumeex_item_name"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:elegantTextHeight="true"
+                android:ellipsize="end"
+                android:layout_marginTop="50dp"
+                android:maxLines="1"
+                android:text="小ck香水"
+                android:textSize="20dp"
+                android:textColor="#201e1f"/>
+
+            <TextView
+                android:id="@+id/perfumeex_item_author"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:text="41911396"
+                android:textColor="#201e1f"/>
+
+            <TextView
+                android:id="@+id/perfumeex_item_college"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:text="通识学院"
+                android:textColor="#201e1f"/>
+
+            <TextView
+                android:id="@+id/perfumeex_item_discription"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="味道很清淡，适合文艺妹子，余量如图，可小刀。"
+                android:ellipsize="end"
+                android:maxLines="4"
+                android:textColor="#201e1f"/>
+
+            <TextView
+                android:id="@+id/perfumeex_item_price"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:text="150出"
+                android:textColor="#201e1f"/>
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

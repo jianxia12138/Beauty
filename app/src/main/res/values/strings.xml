@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Beauty</string>
+    <string name="rdo_home_label">首页</string>
+    <string name="rdo_func_label">功能</string>
+    <string name="rdo_setting_label">设置</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="btn_label">Button</string>
+    <string name="label_open_list">OpenList</string>
+</resources>

@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:background="@drawable/chatbg"
+    tools:context=".CreamActivity">
+
+
+    <ImageView
+        android:id="@+id/creamex"
+        android:layout_width="130dp"
+        android:layout_height="wrap_content"
+        android:src="@drawable/creamex" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:paddingLeft="10dp">
+
+        <TextView
+            android:id="@+id/creamex_item_name"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:elegantTextHeight="true"
+            android:ellipsize="end"
+            android:maxLines="1"
+            android:text="ysl睫毛膏"
+            android:textSize="20dp"
+            android:textColor="#201e1f"/>
+
+        <TextView
+            android:id="@+id/creamex_item_author"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:text="41711080"
+            android:textColor="#201e1f"/>
+
+        <TextView
+            android:id="@+id/creamex_item_college"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text="经济信息工程学院"
+            android:textColor="#201e1f"/>
+
+        <TextView
+            android:id="@+id/creamex_item_discription"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="618大促买的，买回来仅试用一次，不苍蝇腿，适合新手，持妆效果好。"
+            android:ellipsize="end"
+            android:maxLines="4"
+            android:textColor="#201e1f"/>
+
+        <TextView
+            android:id="@+id/creamex_item_price"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text="300出，可小刀"
+            android:textColor="#201e1f"/>
+    </LinearLayout>
+
+
+
+
+</LinearLayout>
